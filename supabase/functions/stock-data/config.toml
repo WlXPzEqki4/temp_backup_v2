@@ -1,0 +1,11 @@
+
+# Note that environment variables may override the values in this file.
+# For local development, set the secret ALPHA_VANTAGE_API_KEY environment variable.
+# See: https://supabase.com/docs/guides/functions/secrets
+
+# Whether to enforce JWT verification for this function
+auth.enable = false
+
+# Specifies the time in seconds for caching the function response
+# cache.enable = true
+# cache.max_age = 60
